@@ -21,5 +21,6 @@ export enum SectionID {
   METHOD = 'method',
   AUDIENCE = 'audience',
   FAQ = 'faq',
+  TESTIMONIALS = 'testimonials',
   CONTACT = 'contact'
 }

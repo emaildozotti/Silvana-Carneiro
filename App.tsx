@@ -5,6 +5,7 @@ import { VideoSection } from './components/VideoSection';
 import { About } from './components/About';
 import { Methodology } from './components/Methodology';
 import { Audience } from './components/Audience';
+import { Testimonials } from './components/Testimonials';
 import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
 
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <About />
       <Methodology />
       <Audience />
+      <Testimonials />
       <FAQ />
       <Footer />
     </main>

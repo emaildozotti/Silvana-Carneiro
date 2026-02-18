@@ -53,16 +53,11 @@ export const VideoSection: React.FC = () => {
               </>
             ) : (
               <div className="relative w-full h-full bg-black">
-                <video
-                  src="https://drive.google.com/uc?export=download&id=1mOS8tbCaHwcbwmSchoCf5YZAwqV5mgQM"
-                  controls
-                  autoPlay
-                  muted
-                  playsInline
-                  className="w-full h-full object-cover"
-                >
-                  Seu navegador não suporta vídeos em HTML5.
-                </video>
+                <iframe
+                  src="https://drive.google.com/file/d/1mOS8tbCaHwcbwmSchoCf5YZAwqV5mgQM/preview"
+                  className="w-full h-full border-none"
+                  allow="autoplay"
+                ></iframe>
               </div>
             )}
           </div>
